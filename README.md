@@ -1,3 +1,5 @@
+# Habs_Portfolio
+Habs_Portfolio
 # Modern Minimalist Portfolio
 
 A light, responsive React + TypeScript + Vite portfolio with a white/grey/teal palette, keyboard focus styles, reduced-motion support, and subtle scroll-reveal effects.
