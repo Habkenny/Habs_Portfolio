@@ -13,6 +13,6 @@ describe("Portfolio application", () => {
     render(<App />);
     expect(
       document.getElementById("hero-title")?.textContent,
-    ).toMatch(/Full-Stack Engineer/i);
+    ).toMatch(/full-stack products/i);
   });
 });

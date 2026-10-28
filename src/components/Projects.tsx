@@ -400,7 +400,7 @@ function ProjectCard({ project }: { project: Project }) {
             <a
               href={project.live}
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
               aria-label={`View live demo of ${project.name} (opens in a new tab)`}
             >
               Live demo <ArrowUpRight size={16} aria-hidden="true" />
@@ -435,6 +435,7 @@ export default function Projects() {
       <div className="container">
         <Reveal>
           <SectionHeading
+            headingId="projects-title"
             eyebrow="SELECTED WORK"
             title="Projects built to solve practical problems."
             description="A selection of websites, applications, dashboards, and progressive web apps. Explore the live demos where available or review the source code."

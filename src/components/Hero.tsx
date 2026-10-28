@@ -41,10 +41,12 @@ export default function Hero() {
             <a
               className="button button-secondary"
               href="https://habcvhtml.netlify.app/"
-              
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="View CV (opens in a new tab)"
             >
               View CV
-              <span aria-hidden="true">↓</span>
+              <span aria-hidden="true">↗</span>
             </a>
 
             <a

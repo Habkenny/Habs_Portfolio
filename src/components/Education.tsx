@@ -34,6 +34,7 @@ export default function Education() {
       <div className="container education-layout">
         <Reveal>
           <SectionHeading
+            headingId="education-heading"
             eyebrow="EDUCATION"
             title="A foundation in data, environment and technology."
             description="My academic background in GIS and environmental science strengthens my approach to spatial data, analytical thinking and solving practical problems through software."

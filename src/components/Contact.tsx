@@ -53,6 +53,7 @@ export default function Contact() {
         <div className="contact-intro">
           <Reveal>
             <SectionHeading
+              headingId="contact-title"
               eyebrow="GET IN TOUCH"
               title="Have a role or project in mind?"
               description="I’m open to software engineering opportunities, collaborations and interesting web projects. Send me a message and let’s connect."
