@@ -11,6 +11,8 @@ describe("Portfolio application", () => {
 
   it("renders the main portfolio content", () => {
     render(<App />);
-    expect(document.body.firstChild).not.toBeNull();
+    expect(
+      document.getElementById("hero-title")?.textContent,
+    ).toMatch(/Full-Stack Engineer/i);
   });
 });

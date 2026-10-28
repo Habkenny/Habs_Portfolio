@@ -15,7 +15,7 @@ export default function About() {
         <Reveal delay={100}>
           <div className="about-copy">
             <p className="about-lede">I’m a full-stack engineer who enjoys turning ideas into useful, approachable digital products.</p>
-            <p>I'm Habeeb Kehinde, a Full-Stack Engineer with over three years of experience building responsive, user-focused web applications. I specialise in React, TypeScript, Node.js, Express, REST APIs and database-driven solutions using PostgreSQL and MongoDB. I also explore desktop development with Tauri and am expanding my skills in AI engineering to build intelligent, practical software solutions. With a background in GIS and data analysis, I bring analytical thinking and problem-solving skills to every project.</p>
+            <p>I&apos;m Habeeb Kehinde, a full-stack engineer with over three years of experience shipping responsive web applications with React, TypeScript and Node.js. I work with REST APIs, PostgreSQL and MongoDB, and I bring GIS and data-analysis experience to practical software problems. I&apos;m also exploring Tauri and AI-assisted development for useful, maintainable products.</p>
             <a className="text-link" href="#experience">Explore my experience <span aria-hidden="true">→</span></a>
           </div>
         </Reveal>

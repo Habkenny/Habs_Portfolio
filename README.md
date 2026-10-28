@@ -1,6 +1,4 @@
-# Habs_Portfolio
-Habs_Portfolio
-# Modern Minimalist Portfolio
+# Habeeb Kehinde — Portfolio
 
 A light, responsive React + TypeScript + Vite portfolio with a white/grey/teal palette, keyboard focus styles, reduced-motion support, and subtle scroll-reveal effects.
 
@@ -29,17 +27,14 @@ npm run preview
 
 - `src/components/` — page sections and reusable reveal/heading components
 - `src/index.css` — layout, theme, responsive rules and animations
-- `public/` — static assets such as your real CV and verified certificates
+- `public/` — static assets such as your CV PDF and certificate files
 
 ## Before publishing
 
-1. Confirm all project descriptions, stack labels and links match the current project state.
-2. Add a real CV PDF before creating a download link.
-3. Add your university name and graduation year to `Education.tsx`.
-4. Replace the certificate placeholder with verified credentials, or temporarily remove the Certificates section.
-5. The first two project cards link to your GitHub profile where a direct repository URL was not verified. Replace these with exact repository links when confirmed.
-6. Project thumbnails are illustrative CSS mock-ups, not screenshots of the live applications. Replace them with your own screenshots when available.
-7. The external Google Fonts import requires internet; system fonts are used as a fallback.
+1. Add `public/Habeeb-Kehinde-CV.pdf` so the hero **Download CV** link works.
+2. Add certificate PDFs and images under `public/certificates/` (paths are listed in `src/components/Certificates.tsx`).
+3. Replace illustrative project visuals with screenshots when you have them.
+4. Google Fonts load from the network; system fonts are used as a fallback.
 
 ## Tailwind note
 

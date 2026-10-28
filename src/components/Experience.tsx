@@ -16,7 +16,6 @@ export default function Experience() {
         <div className="timeline">
           {roles.map((role, index) => <Reveal key={`${role.organisation}-${role.period}`} delay={index * 55} className="timeline-item"><div className="timeline-period">{role.period}</div><div className="timeline-marker" aria-hidden="true"/><div className="timeline-content"><h3>{role.role}</h3><p className="timeline-org">{role.organisation}</p><ul>{role.details.map((detail) => <li key={detail}>{detail}</li>)}</ul></div></Reveal>)}
         </div>
-        <p className="experience-note">Earlier experience also includes a Scientific Officer role with the Ogun State Ministry of Environment. Add verified dates and responsibilities before publishing that entry.</p>
       </div>
     </section>
   )

@@ -6,11 +6,15 @@ const education = [
   {
     level: 'POSTGRADUATE DEGREE',
     degree: 'MSc Geographic Information Systems (GIS)',
+    institution: 'Sheffield Hallam University, Sheffield, United Kingdom',
+    period: '2022 — 2023',
     subjects: ['GIS', 'ArcGIS', 'QGIS', 'ENVI', 'ArcMap'],
   },
   {
     level: 'UNDERGRADUATE DEGREE',
     degree: 'BSc Environmental Management & Toxicology',
+    institution: 'Federal University of Agriculture, Abeokuta (FUNAAB), Nigeria',
+    period: 'Graduated January 2014',
     subjects: [
       'Environmental Management',
       'Climate Change',
@@ -46,6 +50,9 @@ export default function Education() {
               <p className="project-type">{item.level}</p>
 
               <h3>{item.degree}</h3>
+
+              <p className="education-institution">{item.institution}</p>
+              <p className="education-period">{item.period}</p>
 
               <ul className="education-skills" aria-label="Areas of study">
                 {item.subjects.map((subject) => (

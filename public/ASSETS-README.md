@@ -1,5 +1,5 @@
 # Portfolio assets
 
-- Put your actual CV PDF at `public/Habeeb-Kehinde-CV.pdf` before adding a CV download link.
-- Put verified certificate PDFs in `public/certificates/` and update `src/components/Certificates.tsx` with exact titles and paths.
+- Put your CV PDF at `public/Habeeb-Kehinde-CV.pdf` (linked from the hero).
+- Put certificate PDFs and images in `public/certificates/` using the paths in `src/components/Certificates.tsx`.
 - Do not add placeholder certificates or claim unverified credentials.
